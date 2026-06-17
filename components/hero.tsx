@@ -64,7 +64,7 @@ export default function Hero() {
               </div>
 
               <div>
-                <div className="text-red-600 text-[20px] font-bold">500+</div>
+                <div className="text-red-600 text-[20px] font-bold">25+</div>
                 <div className="text-gray-500 text-sm uppercase mt-1">
                   Projects Completed
                 </div>

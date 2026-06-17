@@ -43,15 +43,15 @@ export default function Header() {
           <Phone className="w-4 h-4 text-red-600" />
           <div>
             <div className="text-xs text-gray-400">FOR QUOTE</div>
-            <div className="text-white font-bold">8369237441</div>
+            <div className="text-white font-bold">+91 8369237441</div>
           </div>
         </div>
 
         {/* Mobile right side */}
         <div className="flex lg:hidden items-center gap-3">
-          <a href="tel:8369237441" className="flex items-center gap-1.5 px-3 py-2 border border-red-600 rounded">
+          <a href="tel:+91 8369237441" className="flex items-center gap-1.5 px-3 py-2 border border-red-600 rounded">
             <Phone className="w-4 h-4 text-red-600" />
-            <span className="text-white text-sm font-bold">8369237441</span>
+            <span className="text-white text-sm font-bold">+91 8369237441</span>
           </a>
           <button onClick={() => setMobileOpen(!mobileOpen)} aria-label="Toggle menu">
             {mobileOpen
